@@ -1,8 +1,9 @@
+import LiComp from "./LiComp"
+
 const TodoList = () => {
     return (
       <ul>
-        <li>Learn JS</li>
-        <li>Learn React</li>
+        <LiComp />
       </ul>
     )
   }
