@@ -1,9 +1,9 @@
-import DateUpdate from "./DateUpdate"
+import ShowDate from "./ShowDate"
 
 const Header = () => {
     return (<>
         <h1>Hello World!</h1>
-        <DateUpdate />
+        <ShowDate />
     </>)
 
 }
