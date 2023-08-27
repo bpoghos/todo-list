@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import Header from "./components/Header";
 import Search from "./components/Search";
 import TodoList from "./components/TodoList";
-import UserList from "./components/UserList";
+import Users from "./components/Users";
 
 
 const App = () => {
@@ -22,7 +22,7 @@ const App = () => {
       <Header />
       <Search />
       <TodoList />
-      <UserList users={users}/>
+      <Users users={users} />
     </div>
   )
 }
