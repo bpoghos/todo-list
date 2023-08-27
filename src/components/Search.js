@@ -1,5 +1,10 @@
+import SearchButton from "./SearchButton"
+
 const Search = () => {
-    return <input type="text" placeholder="type text for search..." />
+    return <div>
+    <input type="text" placeholder="type text for search..." />
+    <SearchButton />
+    </div>
   }
 
 export default Search

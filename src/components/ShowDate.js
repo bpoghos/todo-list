@@ -1,13 +1,13 @@
 import ShowDateText from "./ShowDateText"
 
-const ShowDate = () => {
+const ShowDate = ({ text }) => {
 
     return (
         <time dateTime="2023-08-23">
-            <ShowDateText />
+            <ShowDateText text={text} />
         </time>
     )
-    
+
 }
 
 

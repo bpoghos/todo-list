@@ -1,10 +1,10 @@
 import ShowDate from "./ShowDate"
 
 const Header = () => {
-    return (<>
+    return (<div>
         <h1>Hello World!</h1>
-        <ShowDate />
-    </>)
+        <ShowDate text="My New text"/>
+    </div>)
 
 }
 
