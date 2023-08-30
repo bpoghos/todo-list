@@ -1,8 +1,11 @@
-const Button = ({ text, color = "black" }) => {
+import './button.css'
+
+
+const Button = ({ text }) => {
 
 
     return (
-        <button style={{ color }}>{text}</button>
+        <button>{text}</button>
     )
 }
 

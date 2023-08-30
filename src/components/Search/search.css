@@ -1,0 +1,14 @@
+.search-comp{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+
+}
+.search-comp input{
+    padding: 5px 20px 5px 5px;
+    border: 0.5px solid #a7a7a7;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #ececec;
+}
